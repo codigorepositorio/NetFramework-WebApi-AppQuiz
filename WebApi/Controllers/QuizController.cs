@@ -10,6 +10,11 @@ namespace WebApi.Controllers
 {
     public class QuizController : ApiController
     {
+
+        /// <summary>
+        /// Listando las preguntas
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("api/Questions")]
         public HttpResponseMessage GetQuestions()
